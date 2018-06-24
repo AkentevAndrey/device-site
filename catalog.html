@@ -1,0 +1,216 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <title>Магазин Device Каталог товаров</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+    </head>
+    
+    <body>
+        <header class="main-header">
+            <div class="main-logo">
+                Device
+            </div>
+            <form action="" method="get" class="search">
+                <input type="text" name="search" placeholder="Поиск по сайту">
+            </form>
+            <ul class="user-nav-list">
+                <li class="user-nav-item"><a href="" class="user-account">Валентин Петухов</a></li>
+                <li class="user-nav-item"><a href="#" class="login-out">Выйти</a></li>
+                <li class="user-nav-item"><a href="#" class="compare">Сравнить</a></li>
+                <li class="user-nav-item"><a href="" class="backet">Корзина</a></li>
+            </ul>
+            <nav class="main-nav">
+                <h3><a href="catalog.html">Каталог товаров</a></h3>
+                <ul>
+                    <li><a href="#">Виртуальная реальность</a></li>
+                    <li><a href="#">Моноподы для селфи</a></li>
+                    <li><a href="#">Экшн-камеры</a></li>
+                    <li><a href="#">Фитнес-браслеты</a></li>
+                    <li><a href="#">Умные часы</a></li>
+                    <li><a href="#">Квадрокоптеры</a></li>
+                </ul>
+            </nav>
+            <p class="service-link">
+                <a href="#">Доставка</a>
+                <a href="#">Гарантия</a>
+                <a href="#">Контакты</a>
+            </p>
+        </header>
+        
+        <main class="main-content">
+            <h1 class="content-title">Моноподы для селфи</h1>
+            <ul class="breadcrunbs">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог товаров</a></li>
+                <li><a>Моноподы для селфи</a></li>
+            </ul>
+            <section class="filters">
+                <h2>Фильтр:</h2>
+                <form action="" name="devise-filters" method="post">
+                    <fieldset class="filter-item">
+                        <legend class="goods-price">Стоимость</legend>
+                        <ul>
+                            <li>
+                                <span>от</span>
+                                <input type="text" name="price-min" class="price-min" plaseholder="0">
+                            </li>
+                            <li>
+                                <span>до</span>
+                                <input type="text" name="price-max" class="price-max" plaseholder="5000">
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="filter-item">
+                        <legend class="filter-color">Цвет</legend>
+                        <ul class="filter-color-list">
+                            <li class="filter-color-item">
+                                <input type="checkbox" id="color-black" class="checkbox" name="black" checked>
+                                <label for="color-black">Черный</label>
+                            </li>
+                            <li class="filter-color-item">
+                                <input type="checkbox" id="color-white" class="checkbox" name="black">
+                                <label for="color-white">Белый</label>
+                            </li>
+                            <li class="filter-color-item">
+                                <input type="checkbox" id="color-blue" class="checkbox" name="black" checked>
+                                <label for="color-blue">Синий</label>
+                            </li>
+                            <li class="filter-color-item">
+                                <input type="checkbox" id="color-red" class="checkbox" name="black" checked>
+                                <label for="color-red">Красный</label>
+                            </li>
+                            <li class="filter-color-item">
+                                <input type="checkbox" id="color-pink" class="checkbox" name="black">
+                                <label for="color-pink">Розовый</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="filter-item">
+                        <legend class="filter-bluetooth">Bluetooth</legend>
+                        <ul class="filter-bluetooth-list">
+                            <li class="filter-bluetooth-item">
+                                <input type="radio" id="bluetooth-yes" class="radio" name="bluetooth" value="yes">
+                                <label for="bluetooth-yes">Есть</label>
+                            </li>
+                            <li class="filter-bluetooth-item">
+                                <input type="radio" id="bluetooth-no" class="radio" name="bluetooth" value="no">
+                                <label for="bluetooth-no">Нет</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <button type="submit" class="btn">Показать</button>
+                </form>
+            </section>
+            <section class="filter-sort">
+                <h2>Сортировка</h2>
+                <a class="active" href="#">По цене</a>
+                <a href="#">По типу</a>
+                <a href="#">По популярности</a>
+                <p class="more-less">
+                    <a href="#" class="more">По возрастанию</a>
+                    <a href="#" class="less">По убыванию</a>
+                </p>
+            </section>
+            <section class="catalog">
+                <h2 class="visually-hidden">Каталог моноподов для селфи</h2>
+                <ul class="catalog-list">
+                    <li class="catalog-item">
+                        <h3><a href="#">Любительская селфи-палка</a></h3>
+                        <p class="catalog-item-image">
+                            <a href="#"><img src="#" alt="Любительская селфи-палка"></a>
+                        </p>
+                        <b class="price">500 руб</b>
+                    </li>
+                    <li class="catalog-item">
+                        <h3><a href="#">Профессиональная селфи-палка</a></h3>
+                        <p class="catalog-item-image">
+                            <a href="#"><img src="#" alt="Профессиональная селфи-палка"></a>
+                        </p>
+                        <b class="price">1 500 руб</b>
+                    </li>
+                    <li class="catalog-item">
+                        <h3><a href="#">Непотопляемая селфи-палка</a></h3>
+                        <p class="catalog-item-image">
+                            <a href="#"><img src="#" alt="Непотопляемая селфи-палка"></a>
+                        </p>
+                        <b class="price">2 500 руб</b>
+                    </li>
+                    <li class="catalog-item">
+                        <h3><a href="#">Селфи-палка &#171Следуй за мной&#187</a></h3>
+                        <p class="catalog-item-image">
+                            <a href="#"><img src="#" alt="Селфи-палка Следуй за мной"></a>
+                        </p>
+                        <b class="price">4 900 руб</b>
+                    </li>
+                </ul>
+            </section>
+            <ul class="pagination">
+                <li class="pagination-link pre-link"><a href="#">Назад</a></li>
+                <li class="pagination-link active"><a>1</a></li>
+                <li class="pagination-link"><a href="#">2</a></li>
+                <li class="pagination-link"><a href="#">3</a></li>
+                <li class="pagination-link next-link"><a href="#">Вперед</a></li>
+            </ul>
+        </main>
+        
+        <footer class="main-footer">
+            <div class="left">
+                <div class="logo">DEVICE</div>
+                <p>г. Москва, ул. Строителей, 15</p>
+            </div>
+            <div class="center">
+                <p class="service-link">
+                    <a href="#">Доставка</a>
+                    <a href="#">Гарантия</a>
+                    <a href="#">Контакты</a>
+                </p>
+                <ul class="social-block">
+                    <li class="social-item social-item-fb"><a href="#">FaceBook</a></li>
+                    <li class="social-item social-item-inst"><a href="#">Instagram</a></li>
+                    <li class="social-item social-item-twitter"><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="user-nav-list">
+                    <li class="user-nav-item"><a href="#" class="login">Войти</a></li>
+                    <li class="user-nav-item"><a href="#" class="compare">Сравнить</a></li>
+                    <li class="user-nav-item"><a href="" class="backet">Корзина</a></li>
+                </ul>
+                <a class="phone-link" href="tel:+74954959595">
+                    Тел.: +7 (495) 495-95-95
+                </a>
+                <div class="logo-htmlacademy">
+                    <img src="#" alt="HTML Academy">
+                </div>
+            </div>
+        </footer>
+        
+        <section class="modal-feedback">
+            <h2 class="visually-hidden">Напишите нам</h2>
+            <form action="/" name="feedback-form" method="post">
+                <fieldset class="feedback-form-item">
+                    <legend><label for="user-name">Ваше имя:</label></legend>
+                    <input type="text" name="user-name" id="user-name" placeholder="Представьтесь пожалуйста">
+                </fieldset>
+                <fieldset class="feedback-form-item">
+                    <legend><label for="user-email">Ваш e-mail:</label></legend>
+                    <input type="text" name="user-email" id="user-email" placeholder="Для отправки ответа">
+                </fieldset>
+                <fieldset class="feedback-form-item">
+                    <legend><label for="text-email">Текст письма:</label></legend>
+                    <textarea name="text-email" id="text-email" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+                </fieldset>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+            <button class="modal-btn-close">Закрыть форму</button>
+        </section>
+        
+        <section class="modal-map">
+            <h2 class="visually-hidden">Как до нас добраться</h2>
+            <button class="modal-btn-close">Закрыть</button>
+        </section>
+    </body>
+</html>
